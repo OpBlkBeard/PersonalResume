@@ -8,12 +8,17 @@ html,
 body {
     max-width: 100%;
     overflow-x: hidden;
+    min-width: 540px;
 }
 
 .centerCalc {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.experienceList {
+    width: 150%;
 }
 
 body {
@@ -202,9 +207,12 @@ section.resume-section .resume-item .resume-date {
         margin-left: 0px;
         transition: 1.5s;
     }
+    .experienceList {
+        width: 100%;
+    }
 }
 
-@media(max-width:1300px) {
+@media(max-width:1500px) {
     #typewriter {
         font-size: large !important;
         transition: 1.5s;
@@ -263,6 +271,44 @@ section.resume-section .resume-item .resume-date {
         margin-left: -50px;
         transition: 1.5s;
     }
+    .experienceList {
+        width: 75%;
+    }
+}
+
+@media(max-width: 1150px) {
+    .window {
+        font-family: DankMono-regular;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+        border: 1px solid #282F34;
+        width: 80%;
+        height: 1300px;
+        max-width: 1700px;
+        max-height: 1300px !important;
+        box-shadow: 0 20px 70px rgba(0, 0, 0, 0.55);
+        margin: 0 auto;
+        transition: 1.5s;
+    }
+    .window__content-frame {
+        display: block;
+        background: #1C2429;
+        width: 100%;
+        height: 1300px;
+        height: calc(100% - 20px);
+        max-height: 1300px !important;
+        position: relative;
+        transition: 1.5s;
+    }
+    .window__content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        transition: 1.5s;
+        height: 1200px !important;
+    }
 }
 
 @media(max-width: 530px) {
@@ -274,9 +320,14 @@ section.resume-section .resume-item .resume-date {
         transition: 1.5s;
     }
     .window {
-        height: 1100px;
+        font-family: DankMono-regular;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+        border: 1px solid #282F34;
+        width: 80%;
+        height: 1300px;
         max-width: 1700px;
-        max-height: 1100px !important;
+        max-height: 1300px !important;
         box-shadow: 0 20px 70px rgba(0, 0, 0, 0.55);
         margin: 0 auto;
         transition: 1.5s;
@@ -285,9 +336,9 @@ section.resume-section .resume-item .resume-date {
         display: block;
         background: #1C2429;
         width: 100%;
-        height: 1100px;
+        height: 1300px;
         height: calc(100% - 20px);
-        max-height: 1100px !important;
+        max-height: 1300px !important;
         position: relative;
         transition: 1.5s;
     }
@@ -298,7 +349,7 @@ section.resume-section .resume-item .resume-date {
         right: 0;
         bottom: 0;
         transition: 1.5s;
-        height: 1000px !important;
+        height: 1200px !important;
     }
 }
 
