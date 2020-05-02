@@ -224,9 +224,9 @@ section.resume-section .resume-item .resume-date {
         border-top-left-radius: 6px;
         border-top-right-radius: 6px;
         border: 1px solid #282F34;
-        width: 80%;
+        width: 95%;
         height: 1000px;
-        max-width: 1700px;
+        max-width: 1900px;
         max-height: 1000px !important;
         box-shadow: 0 20px 70px rgba(0, 0, 0, 0.55);
         margin: 0 auto;
@@ -276,17 +276,14 @@ section.resume-section .resume-item .resume-date {
     .experienceList {
         width: 75%;
     }
-}
-
-@media(max-width: 1150px) {
     .window {
         font-family: DankMono-regular;
         border-top-left-radius: 6px;
         border-top-right-radius: 6px;
         border: 1px solid #282F34;
-        width: 80%;
-        height: 1300px;
-        max-width: 1700px;
+        width: 95%;
+        height: 1100px;
+        max-width: 1900px;
         max-height: 1300px !important;
         box-shadow: 0 20px 70px rgba(0, 0, 0, 0.55);
         margin: 0 auto;
@@ -296,7 +293,7 @@ section.resume-section .resume-item .resume-date {
         display: block;
         background: #1C2429;
         width: 100%;
-        height: 1300px;
+        height: 1100px;
         height: calc(100% - 20px);
         max-height: 1300px !important;
         position: relative;
@@ -309,11 +306,46 @@ section.resume-section .resume-item .resume-date {
         right: 0;
         bottom: 0;
         transition: 1.5s;
-        height: 1200px !important;
+        height: 1000px !important;
     }
 }
 
-@media(max-width: 530px) {
+@media(max-width: 1150px) {
+    .window {
+        font-family: DankMono-regular;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+        border: 1px solid #282F34;
+        width: 95%;
+        height: 980px;
+        max-width: 1900px;
+        max-height: 1300px !important;
+        box-shadow: 0 20px 70px rgba(0, 0, 0, 0.55);
+        margin: 0 auto;
+        transition: 1.5s;
+    }
+    .window__content-frame {
+        display: block;
+        background: #1C2429;
+        width: 100%;
+        height: 980px;
+        height: calc(100% - 20px);
+        max-height: 1300px !important;
+        position: relative;
+        transition: 1.5s;
+    }
+    .window__content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        transition: 1.5s;
+        height: 850px !important;
+    }
+}
+
+@media(max-width: 550px) {
     #typewriter {
         font-size: small !important;
         display: block;
@@ -326,10 +358,10 @@ section.resume-section .resume-item .resume-date {
         border-top-left-radius: 6px;
         border-top-right-radius: 6px;
         border: 1px solid #282F34;
-        width: 80%;
-        height: 1300px;
+        width: 95%;
+        height: 1100px;
         max-width: 1700px;
-        max-height: 1300px !important;
+        max-height: 1100px !important;
         box-shadow: 0 20px 70px rgba(0, 0, 0, 0.55);
         margin: 0 auto;
         transition: 1.5s;
@@ -338,7 +370,7 @@ section.resume-section .resume-item .resume-date {
         display: block;
         background: #1C2429;
         width: 100%;
-        height: 1300px;
+        height: 1200px;
         height: calc(100% - 20px);
         max-height: 1300px !important;
         position: relative;
@@ -485,7 +517,7 @@ section.resume-section .resume-item .resume-date {
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
     border: 1px solid #282F34;
-    width: 80%;
+    width: 95%;
     max-width: 1700px;
     max-height: 750px;
     box-shadow: 0 20px 70px rgba(0, 0, 0, 0.55);
