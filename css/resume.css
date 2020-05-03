@@ -8,7 +8,6 @@
                 body {
                     max-width: 100%;
                     overflow-x: hidden;
-                    min-width: 540px;
                     zoom: 100%;
                     transition: 1.5s;
                 }
@@ -390,9 +389,9 @@
                     }
                 }
                 
-                @media(max-width: 550px) {
+                @media(max-width: 630px) {
                     #typewriter {
-                        font-size: small !important;
+                        font-size: medium !important;
                         display: block;
                         margin-right: 0px;
                         margin-left: -100px;
@@ -403,9 +402,7 @@
                         border-top-left-radius: 6px;
                         border-top-right-radius: 6px;
                         border: 1px solid #282F34;
-                        width: 85%;
                         height: 1100px;
-                        max-width: 1600px;
                         max-height: 1100px !important;
                         box-shadow: 0 20px 70px rgba(0, 0, 0, 0.55);
                         margin: 0 auto;
@@ -429,6 +426,42 @@
                         bottom: 0;
                         transition: 1.5s;
                         height: 1200px !important;
+                    }
+                }
+                
+                @media(max-width: 600px) {
+                    #typewriter {
+                        font-size: small !important;
+                    }
+                    .window {
+                        font-family: DankMono-regular;
+                        border-top-left-radius: 6px;
+                        border-top-right-radius: 6px;
+                        border: 1px solid #282F34;
+                        height: 1200px;
+                        max-height: 1500px !important;
+                        box-shadow: 0 20px 70px rgba(0, 0, 0, 0.55);
+                        margin: 0 auto;
+                        transition: 1.5s;
+                    }
+                    .window__content-frame {
+                        display: block;
+                        background: #1C2429;
+                        width: 100%;
+                        height: 1200px;
+                        height: calc(100% - 20px);
+                        max-height: 1400px !important;
+                        position: relative;
+                        transition: 1.5s;
+                    }
+                    .window__content {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        transition: 1.5s;
+                        height: 1100px !important;
                     }
                 }
                 
