@@ -186,7 +186,7 @@
                 
                 @media(max-width:1800px) {
                     #typewriter {
-                        font-size: larger !important;
+                        font-size: x-large !important;
                         display: block;
                         margin-right: 0px;
                         margin-left: 0px;
@@ -216,7 +216,7 @@
                 
                 @media(max-width:1500px) {
                     #typewriter {
-                        font-size: large !important;
+                        font-size: larger !important;
                         transition: 1.5s;
                     }
                     .window {
@@ -349,6 +349,13 @@
                 }
                 
                 @media(max-width: 1150px) {
+                    #typewriter {
+                        font-size: large !important;
+                        display: block;
+                        margin-right: 0px;
+                        margin-left: -50px;
+                        transition: 1.5s;
+                    }
                     .window {
                         font-family: DankMono-regular;
                         border-top-left-radius: 6px;
