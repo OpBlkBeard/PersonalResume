@@ -96,13 +96,3 @@ var typer = document.getElementById('typewriter');
 typewriter = setupTypewriter(typewriter);
 
 typewriter.type();
-
-function setInitialScale() {
-    if (document.documentElement.clientWidth < 550) {
-        document.querySelector("meta[name=viewport]").setAttribute(
-            'content',
-            'width=device-width, initial-scale="1.0"');
-    }
-}
-
-document.onload = setInitialScale();
