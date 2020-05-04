@@ -4,6 +4,7 @@
                     overflow-x: hidden;
                     zoom: 100%;
                     transition: 1.5s;
+                    min-width: 366px;
                 }
                 
                 .centerCalc {
@@ -640,4 +641,26 @@
                 .navbar-dark .navbar-nav .nav-link.show,
                 .navbar-dark .navbar-nav .show>.nav-link {
                     color: #FF9800;
+                }
+                
+                @media(max-width: 440px) {
+                    #typewriter {
+                        font-size: x-small !important;
+                        transition: 1.5s;
+                    }
+                    .smallfont {
+                        font-size: small !important;
+                        transition: 1.5s;
+                    }
+                    .mediumfont {
+                        font-size: medium !important;
+                        transition: 1.5s;
+                    }
+                    .largefont {
+                        font-size: xx-large !important;
+                        transition: 1.5s;
+                    }
+                    .experienceList {
+                        width: 100%;
+                    }
                 }
